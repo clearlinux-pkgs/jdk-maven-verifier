@@ -4,7 +4,7 @@
 #
 Name     : jdk-maven-verifier
 Version  : 1.6
-Release  : 1
+Release  : 2
 URL      : http://repo1.maven.org/maven2/org/apache/maven/shared/maven-verifier/1.6/maven-verifier-1.6-source-release.zip
 Source0  : http://repo1.maven.org/maven2/org/apache/maven/shared/maven-verifier/1.6/maven-verifier-1.6-source-release.zip
 Summary  : No detailed summary available
@@ -28,6 +28,7 @@ BuildRequires : jdk-commons-io
 BuildRequires : jdk-commons-lang
 BuildRequires : jdk-commons-lang3
 BuildRequires : jdk-commons-logging
+BuildRequires : jdk-commons-parent
 BuildRequires : jdk-doxia
 BuildRequires : jdk-doxia-sitetools
 BuildRequires : jdk-guava
